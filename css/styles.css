@@ -1,0 +1,238 @@
+/* header background color #FFFFFF; */
+/* hero background color #2F303A; */
+/* body background color #E5E5E5; */
+/* team color background color #F5F4FA */
+/* footer background #2F303A; */
+/* accent color #2196F3; */
+
+:root {
+  --main-bgc: #E5E5E5;
+  --seconr-bgc: #F5F4FA;
+  --accent-color: #2196f3;
+  --hero-footer-background-color: #2F303A;
+  --text-main-color: #212121;
+  --text-second-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--main-bgc);
+  color: #212121;
+}
+
+/* .list list-style: none;
+*/
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+ul {
+  list-style: none;
+}
+
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-main-color)}
+
+.after-title {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-second-color);
+}
+
+.subtitle {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+.buttons-style {
+  /* background-color: var(--accent-color); */
+  /* color: #FFFFFF;  */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.buttons-style:hover,
+.buttons-style:focus {
+  color: var(--accent-color);
+}
+
+
+/* -----Header-------- */
+
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  background: #ffffff;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo .logo-blue {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.header-link-contacts {
+  color: #757575;
+}
+
+.header-link-contacts:hover,
+.header-link-contacts:focus {
+  color: var(--accent-color);
+}
+
+/* --------Hero------ */
+.hero {
+  background-color: var(--hero-footer-background-color);
+}
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: #FFFFFF; 
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em; 
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
+}
+
+/* --------Features--------- */
+
+.features-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+/* -------Team------ */
+
+.team {
+  background-color: var(--seconr-bgc);
+}
+
+.team-position {
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* ------Footer------- */
+
+.footer {
+  background-color: var(--hero-footer-background-color);
+}
+.address {
+  font-style: normal;
+}
+
+.direct-address {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-link-contacts {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-contacts:hover,
+.footer-link-contacts:focus {
+  color: var(--accent-color);} 
+
+/* ------Focus------- */
+
+
+
+/* ----Project------- */
+
+.project-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+}
+
+.project-after-title {
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--text-second-color);
+}
