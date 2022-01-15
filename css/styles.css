@@ -68,14 +68,10 @@ line-height: 1.18;
 letter-spacing: 0.03em;
 }
 
-
-
-.buttons-style:hover,
+/* .buttons-style:hover,
 .buttons-style:focus {
   color: var(--accent-color);
-}
-
-
+} */
 /* -----Header-------- */
 
 .header {
